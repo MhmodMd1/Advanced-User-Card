@@ -1,0 +1,207 @@
+
+/* Start Global Rules  */
+body {
+    background-color: #0E0E0E;
+    font-family: 'Roboto', sans-serif;
+}
+/* End Global Rules  */
+
+/* Start Parent  */
+.parent {
+    background-color: #F8F9FA;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Parent  */
+/* Start Card  */
+.parent .main-card {
+    width: 95%;
+    height: 90%;
+}
+/* Start Header  */
+.main-card .header {
+    width: calc(100% - 60px);
+    height: 100px;
+    background-color: #2ECA7F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    color:white;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.main-card .header .logo {
+    display: flex;
+    align-items: center;
+}
+.main-card .header .logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.main-card .header .logo .text h1 {
+    margin: 0;
+}
+.main-card .header .logo .text p {
+    margin: 0;
+    color: #eee;
+}
+.main-card .header .contact {
+    display: flex;
+    flex-direction: column;
+}
+.main-card .header .contact p {
+    font-size: 15px;
+    margin: 0 0 10px;
+
+}
+.main-card .header .contact .link .flex {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: #2ECA7F;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+}
+/* End Header  */
+/* Start Content-Nav */
+.main-card .content {
+    background-color: white;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+}
+.main-card .content .content-nav {
+    width: calc(15% - 50px);
+    height: calc(100% - 50px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-right: 1px solid #f4f4f4;
+}
+.main-card .content .content-nav .blok {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    color: #343D46;
+}
+.main-card .content .content-nav .blok-one {
+    margin-top: 25px;
+    color: #2ECA7F;
+    position: relative;
+}
+.main-card .content .content-nav .blok-one::after {
+    content: "";
+    position: absolute;
+    left: -25%;
+    top: 8px;
+    background-color: #2ECA7F;
+    width: 16px;
+    height: 2px;
+}
+.main-card .content .content-nav .blok p {
+    margin: 0;
+    margin-left: 10px;
+}
+/* End Content-Nav  */
+/* Start .content-info  */
+.main-card .content .content-info {
+    width: 85%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-card .content .content-info .image {
+    width: 50%;
+}
+.main-card .content .content-info .image img {
+    width: 100%;
+}
+.main-card .content .content-info .info {
+    width: 40%;
+    font-size: 15px;
+}
+.main-card .content .content-info .info h1 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1;
+    font-weight: bold;
+    position: relative;
+}
+.main-card .content .content-info .info h1::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 88px;
+    height: 1px;
+    background-color: #2ECA7F;
+}
+.main-card .content .content-info .info h1::before {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    width: 30px;
+    height: 7px;
+    background-color: #2ECA7F;
+    border-radius: 10px;
+}
+.main-card .content .content-info .info .info-text {
+    line-height: 1.5;
+    margin-top: 30px;
+}
+.main-card .content .content-info .info .form {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-card .content .content-info .info .form  p {
+    margin: 0;
+    color: #46545C;
+}
+.main-card .content .content-info .info .form  h3 {
+    margin: 0;
+    color: #46545C;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.main-card .content .content-info .info .more {
+    width: 170px;
+    height: 40px;
+    background-color: #2ECA7F;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.main-card .content .content-info .info .more i {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: #2ECA7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-card .content .content-info .info .more p {
+    color: white;
+}
+/* End .content-info  */
+/* End Card  */
